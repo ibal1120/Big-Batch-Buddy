@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Convert tablespoons and teaspoons into cups">
+    	<meta name="big batches, convert" content="one, two, three">
+
+		<title>Big Batch Buddy</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="Big Batch Buddy.css">
+		<link rel="stylesheet" href="Big Batch Buddy.css">
+        
+	</head>
+    <body>
+        <div class="container">
+            <h1>Big Batch Buddy</h1>
+            <input type="number" id="inputValue" 
+                placeholder="Enter value" 
+                oninput="convert()">
+                <select id="fromUnit" onchange="convert()">
+                    <option id = 'Tbsp' value="15">Tablespoon (Tbsp)</option>
+                    <option id = 'tsp' value="5">Teaspoon (tsp)</option>
+                </select>
+                <select id="toUnit" onchange="convert()">
+                    <option id = 'Cup' value="237">Cup (Cup)</option>
+                    <option id = 'thirdCup' value="177">Third Cup (3/4 Cup)</option>
+                    <option id = 'halfCup' value="118">Half Cup (1/2 Cup)</option>
+                    <option id = 'fourthCup' value="60">Fourth Cup (1/4 Cup)</option>
+                </select>
+                <p id="result"></p>
+        </div>
+    </body>
+    <script defer src="Big Batch Buddy.js"></script>
+    <footer>
+    </footer>
