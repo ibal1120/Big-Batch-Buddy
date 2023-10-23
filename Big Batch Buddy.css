@@ -1,7 +1,7 @@
 .container {
     margin: 20px auto;
     width: 300px;
-    background-color: #f1f1f1;
+    background-color: gray;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -31,4 +31,18 @@ p {
     margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.card, #card-block{
+    margin: 20px auto;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cupOutput{
+    color: red;
 }
