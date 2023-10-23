@@ -33,16 +33,53 @@ p {
     font-size: 20px;
 }
 
-.card, #card-block{
+/*.card{
     margin: 20px auto;
     width: 200px;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
+    /*padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}*/
+
+
+.cardRed{
+    margin: 20px auto;
+    width: 200px;
+    background-color: red;
     padding: 15px;
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.cupOutput{
-    color: red;
+.cardBlue{
+    margin: 20px auto;
+    width: 200px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.cardYellow{
+    margin: 20px auto;
+    width: 200px;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cardGreen{
+    margin: 20px auto;
+    width: 200px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
